@@ -19,6 +19,7 @@
   <a href="https://github.com/Ajay-hb/Object-Recognition-in-Images/stargazers">
     <img src="https://img.shields.io/github/stars/Ajay-hb/Object-Recognition-in-Images?style=social" />
   </a>
+
   <a href="https://github.com/Ajay-hb/Object-Recognition-in-Images/network/members">
     <img src="https://img.shields.io/github/forks/Ajay-hb/Object-Recognition-in-Images?style=social" />
   </a>
@@ -36,15 +37,40 @@ The application allows users to upload images and receive real-time object predi
 
 ---
 
+# 🌐 Live Demo
+
+<div align="center">
+
+# 🚀 Try the Application
+
+## 🔗 Website
+
+### [https://ajay-hb-object-recognition-in-images.streamlit.app/](https://ajay-hb-object-recognition-in-images.streamlit.app/)
+
+</div>
+
+---
+
+# 🖥️ Application Preview
+
+<div align="center">
+
+<img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="800" />
+
+</div>
+
+---
+
 # ✨ Key Features
 
 ✅ Real-Time Image Classification
-✅ Deep Learning CNN Architecture
+✅ CNN-Based Deep Learning Model
 ✅ Interactive Streamlit Dashboard
-✅ Image Upload & Prediction System
-✅ Fast Inference Engine
-✅ Clean & Responsive UI
-✅ Deployment Ready Application
+✅ Fast Image Processing Pipeline
+✅ Upload & Predict Functionality
+✅ Responsive UI Design
+✅ Real-Time Prediction Results
+✅ Deployment Ready AI Application
 
 ---
 
@@ -56,20 +82,21 @@ The application allows users to upload images and receive real-time object predi
 graph LR
 A[Upload Image] --> B[Image Preprocessing]
 B --> C[Normalization & Resizing]
-C --> D[CNN Model]
+C --> D[CNN Deep Learning Model]
 D --> E[Feature Extraction]
-E --> F[Object Prediction]
-F --> G[Classification Result]
+E --> F[Prediction Engine]
+F --> G[Object Classification Output]
 ```
 
 </div>
 
 ---
 
-# 🏗️ Model Architecture
+# 🏗️ CNN Architecture
 
 ```python
 model = Sequential([
+
     Conv2D(32, (3,3), activation='relu'),
     MaxPooling2D(2,2),
 
@@ -109,9 +136,9 @@ model = Sequential([
 Object-Recognition-in-Images/
 │
 ├── app.py
+├── model.h5
 ├── requirements.txt
 ├── runtime.txt
-├── model.h5
 ├── README.md
 ```
 
@@ -167,12 +194,12 @@ pillow
 
 <div align="center">
 
-| Uploaded Image | Predicted Object |
-| -------------- | ---------------- |
-| Cat Image      | 🐱 Cat           |
-| Car Image      | 🚗 Car           |
-| Airplane Image | ✈️ Airplane      |
-| Dog Image      | 🐶 Dog           |
+| Uploaded Image    | Prediction |
+| ----------------- | ---------- |
+| 🐱 Cat Image      | Cat        |
+| 🚗 Car Image      | Car        |
+| ✈️ Airplane Image | Airplane   |
+| 🐶 Dog Image      | Dog        |
 
 </div>
 
@@ -199,8 +226,9 @@ pillow
 ✅ Real-Time Webcam Detection
 ✅ Object Detection with YOLO
 ✅ Grad-CAM Visualization
-✅ Multi-Class Classification Enhancements
-✅ Advanced Analytics Dashboard
+✅ Multi-Class Classification
+✅ AI Analytics Dashboard
+✅ Advanced CNN Architectures
 
 ---
 
@@ -210,10 +238,10 @@ This project demonstrates:
 
 * Deep Learning Fundamentals
 * CNN Architecture Design
-* Image Processing Pipelines
+* Computer Vision Workflows
 * Streamlit Deployment
-* AI Model Inference Systems
-* End-to-End Computer Vision Workflow
+* Real-Time AI Inference
+* End-to-End Machine Learning Pipeline
 
 ---
 
@@ -226,13 +254,15 @@ This project demonstrates:
 ### Data Science | Deep Learning | AI Engineer
 
 <p>
-  <a href="https://github.com/Ajay-hb">
-    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github" />
-  </a>
 
-  <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" />
-  </a>
+<a href="https://github.com/Ajay-hb">
+<img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github" />
+</a>
+
+<a href="https://linkedin.com">
+<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" />
+</a>
+
 </p>
 
 </div>
@@ -253,4 +283,6 @@ If you found this project useful:
 
 # 🚀 Built with AI & Computer Vision
 
-<img src="[https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)" width="400"
+<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="400" />
+
+</div>
